@@ -36,9 +36,9 @@ for sheetname in sheet_names:
   dataset=np.concatenate((dataset, df_sheet), axis=0)
 # print(dataset)
 ###########  save combin data into excel file ###############
-print(dataset.shape)
-df_excel=pd.DataFrame(dataset)
-df_excel.to_excel("output_data.xlsx",index=False)
+# print(dataset.shape)
+# df_excel=pd.DataFrame(dataset)
+# df_excel.to_excel("output_data.xlsx",index=False)
 
 ######### preprocessing the data ###########
 ####### for effective index #########
